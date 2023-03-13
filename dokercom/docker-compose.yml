@@ -1,9 +1,0 @@
-version: '3.1'
-services:
-  s-service:
-    image: guchergun/s-service
-    restart: always
-    environment:
-      DATABASE_URL: postgresql://postgres:aezakmi13698745@s.pspgun.com:6410/sdb?schema=public
-    ports:
-      - 80:8080
