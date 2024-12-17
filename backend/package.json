@@ -6,12 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch ./ index.js",
-    "start": "npx prisma generate && node index"
+    "start": "prisma generate && node index"
   },
   "author": "gugun",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^3.13.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.22",
@@ -19,6 +18,6 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.30",
-    "prisma": "^3.13.0"
+    "prisma": "^6.0.1"
   }
 }
